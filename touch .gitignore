@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints
+
+# Virtual environment
+.venv/
+
+# Output and model artifacts
+output/
+predictions/
+models/
+*.pkl
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
