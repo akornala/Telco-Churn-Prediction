@@ -1,4 +1,3 @@
-```markdown
 # 📉 Telco Customer Churn Prediction
 
 This project predicts customer churn for a telecom company using machine learning and visualizes daily churn and revenue at risk using an interactive dashboard.
@@ -7,48 +6,47 @@ This project predicts customer churn for a telecom company using machine learnin
 
 ## 🚀 Features
 
-- ✅ Clean and preprocess telecom churn data
-- ✅ Train a churn prediction model using Random Forest + SMOTE
-- ✅ Simulate daily customer activity data
-- ✅ Predict churn on daily data feeds
-- ✅ Calculate revenue at risk due to churn
-- ✅ Visualize everything using a Streamlit dashboard
+- ✅ Clean and preprocess telecom churn data  
+- ✅ Train a churn prediction model using Random Forest + SMOTE  
+- ✅ Simulate daily customer activity data  
+- ✅ Predict churn on daily data feeds  
+- ✅ Calculate revenue at risk due to churn  
+- ✅ Visualize everything using a Streamlit dashboard  
 
 ---
 
 ## 🧰 Tech Stack
 
-- **Python** 🐍
-- **Pandas**, **scikit-learn**, **imbalanced-learn**
-- **Streamlit** for the dashboard
-- **Matplotlib** for plotting
-- **Git** & GitHub for version control
+- **Python** 🐍  
+- **Pandas**, **scikit-learn**, **imbalanced-learn**  
+- **Streamlit** for the dashboard  
+- **Matplotlib** for plotting  
+- **Git** & GitHub for version control  
 
 ---
 
 ## 📁 Project Structure
 
+
 ```
-
-telco\_churn\_pipeline/
+telco_churn_pipeline/
 ├── data/                     # Raw data (optional)
-├── daily\_feed/               # Simulated daily customer data
-├── models/                   # Trained model pickle file
-├── output/                   # Output files like predictions, summaries
-├── predictions/              # Daily churn predictions
-├── src/                      # Source scripts
+├── daily_feed/              # Simulated daily customer data
+├── models/                  # Trained model pickle file
+├── output/                  # Output files like predictions, summaries
+├── predictions/             # Daily churn predictions
+├── src/                     # Source scripts
 │   ├── preprocess.py
-│   ├── train\_model.py
-│   ├── simulate\_daily\_feed.py
-│   ├── predict\_daily\_churn.py
-│   ├── calculate\_revenue\_at\_risk.py
-│   ├── summarize\_churn.py
-│   └── extract\_day30\_at\_risk.py
-├── dashboard.py              # Streamlit dashboard app
-├── requirements.txt          # Dependencies
-└── README.md                 # Project documentation
-
-````
+│   ├── train_model.py
+│   ├── simulate_daily_feed.py
+│   ├── predict_daily_churn.py
+│   ├── calculate_revenue_at_risk.py
+│   ├── summarize_churn.py
+│   └── extract_day30_at_risk.py
+├── dashboard.py             # Streamlit dashboard app
+├── requirements.txt         # Dependencies
+└── README.md                # Project documentation
+```
 
 ---
 
@@ -104,13 +102,19 @@ streamlit run dashboard.py
 
 ## 📊 Dashboard Overview
 
-* **Daily Churn** trend (how many customers are likely to churn each day)
-* **Revenue at Risk** line chart
-* **Customers at Risk** table with filtering options
+### 📉 Daily Churn and Revenue at Risk
+
+<img src="https://raw.githubusercontent.com/akornala/Telco-Churn-Prediction/main/assets/dashboard_overview.png" width="800"/>
+
+### 👥 Customers at Risk Table
+
+<img src="https://raw.githubusercontent.com/akornala/Telco-Churn-Prediction/main/assets/customers_at_risk_table.png" width="800"/>
+
+> 💡 **Live Dashboard Link:** [View Dashboard Here](https://telco-churn-prediction-azjinmnq9dbjndgupnb2yq.streamlit.app/)
 
 ---
 
-## 📌 To Do (optional)
+## 📌 To Do
 
 * [ ] Add support for multiple models
 * [ ] Deploy dashboard on Streamlit Cloud or Render
@@ -129,4 +133,3 @@ streamlit run dashboard.py
 
 This project is open source under the [MIT License](LICENSE).
 
-```
